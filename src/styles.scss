@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    height: 100vh;
+    background-color: black;
+    max-width: 1280px;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #aa0f01;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #640800;
+}

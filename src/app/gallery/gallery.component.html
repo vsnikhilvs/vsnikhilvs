@@ -22,7 +22,8 @@
         <span class="2xs:text-2xl 2xs:font-bold">{{ currentData.title }}</span>
     </ng-template>
     <div>
-        <img [src]="currentData.image" loading="eager" />
+        <img *ngIf="currentData.webp" [src]="currentData.webp" loading="eager" />
+        <img *ngIf="currentData.image" [src]="currentData.image" loading="lazy" />
     </div>
     <br />
     <div class="flex flex-col gap-1">
@@ -33,7 +34,9 @@
                     d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
                     clip-rule="evenodd" />
             </svg>
-            <span class="2xs:text-xs sm:text-xs lg:text-base">{{ currentData.location }}</span>
+            <span class="2xs:text-xs sm:text-xs lg:text-base">
+                <a [href]="currentData.locationUrl" target="_blank">{{ currentData.location }}</a>
+            </span>
         </div>
     </div>
 </p-dialog>

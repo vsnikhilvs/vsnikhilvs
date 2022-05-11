@@ -3,12 +3,15 @@ import { Component, OnInit } from '@angular/core';
 import { AngularFireStorage } from '@angular/fire/compat/storage';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 
+import * as Bowser from "bowser";
+
 interface ImageData {
   id: string;
   title: string;
   description: string;
   location: string;
-  image: string
+  image: string;
+  webp: string;
 }
 
 @Component({
@@ -24,7 +27,8 @@ export class GalleryComponent implements OnInit {
     title: "",
     description: "",
     location: "",
-    image: ""
+    image: "",
+    webp: ""
   };
   display: boolean = false;
 
@@ -34,15 +38,27 @@ export class GalleryComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    const browser = Bowser.getParser(window.navigator.userAgent);
     this.db.collection("images").valueChanges().subscribe(
       (rawData: any) => {
         for (let item of rawData) {
           const imageItem = item;
-          this.storage.ref(`/${item.id}.jpg`).getDownloadURL().subscribe(
-            (imageUrl) => {
-              imageItem["image"] = imageUrl;
-            }
-          )
+          if (browser.getBrowserName() !== "Chrome" &&
+            browser.getBrowserName() !== "Firefox" &&
+            browser.getBrowserName() !== "Microsoft Edge"
+          ) {
+            this.storage.ref(`/${item.id}.jpg`).getDownloadURL().subscribe(
+              (imageUrl) => {
+                imageItem["image"] = imageUrl;
+              }
+            )
+          } else {
+            this.storage.ref(`/${item.id}.webp`).getDownloadURL().subscribe(
+              (imageUrl) => {
+                imageItem["webp"] = imageUrl;
+              }
+            )
+          }
           this.portfolioData.push(imageItem);
         }
       },
@@ -61,7 +77,8 @@ export class GalleryComponent implements OnInit {
       title: "",
       description: "",
       location: "",
-      image: ""
+      image: "",
+      webp: ""
     };
     this.display = false;
   }

@@ -1,8 +1,12 @@
 <div class="bg-dukeOrange py-4 px-2 h-[100vh] overflow-y-auto overflow-x-hidden galleryMain">
     <ul>
         <li *ngFor="let item of portfolioData" style="border: 4px solid darkgrey;" (click)="openDialog(item)">
-            <img *ngIf="item.image" [src]="item.image" [alt]="item.title" loading="lazy">
-            <img *ngIf="!item.image" src="../../assets/spinner.svg" alt="Placeholder" loading="eager">
+            <img *ngIf="!item.image && !item.webp" src="../../assets/spinner.svg" alt="Placeholder" loading="eager">
+            <picture *ngIf="item.image || item.webp">
+                <source [srcset]="item.webp" type="image/webp">
+                <source [srcset]="item.image" type="image/jpeg"> 
+                <img [src]="item.image" alt="Alt Text!">
+              </picture>
             <div class="detailDiv p-2">
                 <div class="text-sm">{{ item.title }}</div>
                 <div class="text-xs text-justify">{{ item.description }}</div>

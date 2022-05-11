@@ -170,7 +170,6 @@ export class GalleryComponent implements OnInit {
           }
           this.portfolioData.push(imageItem);
         }
-        console.log(this.portfolioData);
       },
       (err) => console.log(err)
     )

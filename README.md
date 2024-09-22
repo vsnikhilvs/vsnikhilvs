@@ -67,4 +67,4 @@ My toolkit includes, but is not limited to:
 - [Refresh JWT in Angular](https://vsnikhilvs.medium.com/refresh-jwt-with-angular-4262815537e2)
 
 ## Now listening
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31e7vnnqk2qm2vy6tctikijtp2bi&cover_image=true&theme=novatorem&show_offline=false&background_color=000000&interchange=false&bar_color=2c0bd0&bar_color_cover=false)](https://github.com/kittinan/spotify-github-profile)
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31e7vnnqk2qm2vy6tctikijtp2bi&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=31e7vnnqk2qm2vy6tctikijtp2bi&redirect=true)

@@ -11,6 +11,10 @@
 
 <br>
 
+[![GitHub Game of Life](https://github4life.herokuapp.com/vsnikhilvs.gif?z=6)](https://github4life.herokuapp.com/vsnikhilvs)
+
+<br>
+
 I'm a Senior Application Developer at E&Y, Ex-Neoito, Ex-Tiltlabs, Ex-LogicPlum. A Frontend Engineer, who loves Javascript (kind of given, right 😉). I also bring 3D into the browser with BabylonJS. Loves to attain perfection. Well constructed frontend === Peace of mind. Loves brain cracking, ideation, out of the box thinking, creating apps.
 
 ### Me, outside career stuff
@@ -61,3 +65,6 @@ My toolkit includes, but is not limited to:
 - [Package Manager fight: npm vs pnpm vs npx vs yarn](https://vsnikhilvs.medium.com/package-manager-fight-npm-vs-pnpm-vs-npx-vs-yarn-vs-bun-425ceeeb88d8)
 - [How: NextJS Image Optimization](https://vsnikhilvs.medium.com/how-nextjs-image-optimization-4d68929e445e)
 - [Refresh JWT in Angular](https://vsnikhilvs.medium.com/refresh-jwt-with-angular-4262815537e2)
+
+## Now listening
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31e7vnnqk2qm2vy6tctikijtp2bi&cover_image=true&theme=novatorem&show_offline=false&background_color=000000&interchange=false&bar_color=2c0bd0&bar_color_cover=false)](https://github.com/kittinan/spotify-github-profile)

@@ -62,6 +62,7 @@ My toolkit includes, but is not limited to:
 ## ✍️ Not much of a writer, still
 ### Medium
 
+- [What’s happening with the Frontend in 2024](https://vsnikhilvs.medium.com/whats-happening-with-the-frontend-in-2024-16b06e52a111)
 - [Mind-blowing: String length calculation in C](https://vsnikhilvs.medium.com/mind-blowing-string-length-calculation-in-c-4101d71911b2)
 - [Package Manager fight: npm vs pnpm vs npx vs yarn](https://vsnikhilvs.medium.com/package-manager-fight-npm-vs-pnpm-vs-npx-vs-yarn-vs-bun-425ceeeb88d8)
 - [How: NextJS Image Optimization](https://vsnikhilvs.medium.com/how-nextjs-image-optimization-4d68929e445e)

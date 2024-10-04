@@ -62,6 +62,7 @@ My toolkit includes, but is not limited to:
 ## ✍️ Not much of a writer, still
 ### Medium
 
+- [Journey from a Junior to Senior Front End Developer](https://vsnikhilvs.medium.com/journey-from-a-junior-to-senior-front-end-developer-ee588f63f93b)
 - [What’s happening with the Frontend in 2024](https://vsnikhilvs.medium.com/whats-happening-with-the-frontend-in-2024-16b06e52a111)
 - [Mind-blowing: String length calculation in C](https://vsnikhilvs.medium.com/mind-blowing-string-length-calculation-in-c-4101d71911b2)
 - [Package Manager fight: npm vs pnpm vs npx vs yarn](https://vsnikhilvs.medium.com/package-manager-fight-npm-vs-pnpm-vs-npx-vs-yarn-vs-bun-425ceeeb88d8)

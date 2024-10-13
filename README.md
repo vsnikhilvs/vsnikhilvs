@@ -62,6 +62,7 @@ My toolkit includes, but is not limited to:
 ## ✍️ Not much of a writer, still
 ### Medium
 
+- [Mind-blowing: Why 1 == 1 is 🟢 true, but 128 == 128 is 🔴 false in Java?](https://vsnikhilvs.medium.com/mind-blowing-why-1-1-is-true-but-128-128-is-false-in-java-a209abec59b8)
 - [Journey from a Junior to Senior Front End Developer](https://vsnikhilvs.medium.com/journey-from-a-junior-to-senior-front-end-developer-ee588f63f93b)
 - [What’s happening with the Frontend in 2024](https://vsnikhilvs.medium.com/whats-happening-with-the-frontend-in-2024-16b06e52a111)
 - [Mind-blowing: String length calculation in C](https://vsnikhilvs.medium.com/mind-blowing-string-length-calculation-in-c-4101d71911b2)
